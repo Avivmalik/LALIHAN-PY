@@ -1,0 +1,52 @@
+PS C:\Users\ASUS\LATIHAN> git init
+Initialized empty Git repository in C:/Users/ASUS/LATIHAN/.git/
+PS C:\Users\ASUS\LATIHAN> git remote add origin https://github.com/Avivmalik/Latihan-PY.git        
+PS C:\Users\ASUS\LATIHAN> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\ASUS\LATIHAN> git add .
+PS C:\Users\ASUS\LATIHAN> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .vscode/2.Aritmatika.py
+        new file:   .vscode/__pycache__/main.cpython-311.pyc
+        new file:   .vscode/main.py
+        new file:   .vscode/settings.json
+
+PS C:\Users\ASUS\LATIHAN> git commit -m "belajar"
+[master (root-commit) e9af22b] belajar
+ 4 files changed, 27 insertions(+)
+ create mode 100644 .vscode/2.Aritmatika.py
+ create mode 100644 .vscode/__pycache__/main.cpython-311.pyc
+ create mode 100644 .vscode/main.py
+ create mode 100644 .vscode/settings.json
+PS C:\Users\ASUS\LATIHAN> git branch branch-satu
+PS C:\Users\ASUS\LATIHAN> git branch
+  branch-satu
+* master
+PS C:\Users\ASUS\LATIHAN> git checkout branch-satu
+Switched to branch 'branch-satu'
+PS C:\Users\ASUS\LATIHAN> git checkout master
+Switched to branch 'master'
+PS C:\Users\ASUS\LATIHAN> git push -u origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 933 bytes | 933.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Avivmalik/Latihan-PY.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\Users\ASUS\LATIHAN> 
