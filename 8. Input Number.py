@@ -18,3 +18,6 @@ print("suhu dalam farenheit adalah",Farenheit, " F")
 # Kelvin
 kelvin = celcius + 273
 print("suhu dalam kelvin adalah ", kelvin, "K")
+
+
+
