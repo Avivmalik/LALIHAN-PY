@@ -7,7 +7,7 @@ if b > a:
 # Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose                                                                                                                     
 
 # =================================Elif======================================
-# The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition".\
+# The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition".
 a = 33
 b = 33
 if b > a:
@@ -28,7 +28,8 @@ elif a == b:
 else:
   print("a is greater than b")
 
-#  In this example a is greater than b, so the first condition is not true, also the elif condition is not true, so we go to the else condition and print to screen that "a is greater than b".
+#  In this example a is greater than b, so the first condition is not true, also the elif condition is not true, 
+    # so we go to the else condition and print to screen that "a is greater than b".
 
 # You can also have an else without the elif:
 
@@ -54,7 +55,7 @@ print("A") if a > b else print("B")
 
 a = 330
 b = 330
-print("A") if a > b else print("=") if a == b else print("B")
+print("a is greater than b") if a > b else print("a and b are equal") if a == b else print("b is greater than a")
 
 
 # And
